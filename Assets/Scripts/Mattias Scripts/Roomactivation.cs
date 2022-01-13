@@ -2,23 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cameraswitch : MonoBehaviour
+public class Roomactivation : MonoBehaviour
 {
-   //Gör en smooth room transition genom att få Main cam att gå till campointen
-    
-   
+    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-  
+    // Update is called once per frame
     void Update()
     {
-    
+        
     }
-
-    
-
-    
 }
