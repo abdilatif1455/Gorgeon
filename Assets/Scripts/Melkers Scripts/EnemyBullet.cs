@@ -6,6 +6,7 @@ public class EnemyBullet : MonoBehaviour
 {
     public GameObject target;
     public float speed;
+    public float damage;
     Rigidbody2D bulletRD;
 
     void Start()
