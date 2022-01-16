@@ -28,16 +28,20 @@ public class Slash : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) // Gör så att obejektet med PlayerMovement alltså spelaren tar skada om den blir berörd av denna fiende. -Mattias
     {
-        Move enemy = collision.transform.GetComponent<Move>();
-        if (enemy != null)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-      //      enemy.TakeDamage(damage);
+            PlayerMovement enemy = collision.transform.GetComponent<PlayerMovement>();
+            if (enemy != null)
+            {
+                //      enemy.TakeDamage(damage);
+            }
         }
+
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
     }
 }

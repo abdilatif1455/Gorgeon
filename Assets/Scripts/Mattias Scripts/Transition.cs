@@ -9,6 +9,11 @@ public class Transition : MonoBehaviour
     public GameObject formerRoom;
     public GameObject player;
 
+
+    private void Start()
+    {
+     //   player.
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
