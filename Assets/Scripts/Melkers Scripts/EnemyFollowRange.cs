@@ -18,7 +18,7 @@ public class EnemyFollowRange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform; //Letar efter spelaren och dess transform värde
+        //player = GameObject.FindGameObjectWithTag("Player").transform; //Letar efter spelaren och dess transform värde
     }
 
     // Update is called once per frame
