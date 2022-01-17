@@ -30,4 +30,10 @@ public class Patrol : MonoBehaviour
             }
         }
     }
+
+    public void ShootAngle ()
+    {
+
+    }
+
 }
