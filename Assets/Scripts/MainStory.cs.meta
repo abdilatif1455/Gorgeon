@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Scripts/MainStory.cs.meta
 guid: c5430e5c9f42b01449de4abc2915dec5
+=======
+guid: 2d6363d95a7a44d4fb0bb638e345ee21
+>>>>>>> Stashed changes:Assets/Scripts/Cameraswitch.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
