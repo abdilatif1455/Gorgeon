@@ -22,6 +22,14 @@ public class HealthTest : MonoBehaviour
         }
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Bullet")
+        {
+            TakeDamage(1);
+        }
+    }
+
     public void TakeDamage (float Damage)
     {
         healthAmount -= Damage;
