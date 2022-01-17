@@ -6,7 +6,7 @@ public class EnemyFollowRange : MonoBehaviour
 {
     public float speed;
     public float lineOfSite; //Hur står enemyns syn är
-    private Transform player; //Det som enemyn ska följa efter
+    public Transform player; //Det som enemyn ska följa efter
 
     public float shootingRange;
     public float fireRate = 1f; 
