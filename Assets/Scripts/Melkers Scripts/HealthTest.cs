@@ -13,10 +13,18 @@ public class HealthTest : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            //Här ska game over screen hända
+            Destroy(this.gameObject);
         }
 
         if (Input.GetKeyDown(KeyCode.L))
+        {
+            TakeDamage(1);
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
         {
             TakeDamage(1);
         }
