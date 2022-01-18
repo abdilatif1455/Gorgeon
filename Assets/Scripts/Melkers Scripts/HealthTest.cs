@@ -13,7 +13,7 @@ public class HealthTest : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            //Här ska game over screen hända
+            Destroy(this.gameObject);
         }
 
         if (Input.GetKeyDown(KeyCode.L))
@@ -22,9 +22,9 @@ public class HealthTest : MonoBehaviour
         }
     }
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Bullet")
+        if (collision.gameObject.tag == "Enemy")
         {
             TakeDamage(1);
         }
